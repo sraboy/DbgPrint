@@ -1,0 +1,8 @@
+; DbgPrnHk.def
+
+NAME DBGPRNHK.SYS
+DESCRIPTION 'DBGPRNHK.SYS'
+
+EXPORTS
+
+DbgPrnHk_State

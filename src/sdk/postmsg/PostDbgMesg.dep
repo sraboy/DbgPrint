@@ -1,0 +1,6 @@
+# Microsoft Developer Studio Generated Dependency File, included by PostDbgMesg.mak
+
+.\PostDbgMesg.cpp : \
+	"..\..\inc\dbgprnhk.h"\
+	"..\..\inc\tools.h"\
+	".\PostDbgMesg.h"\

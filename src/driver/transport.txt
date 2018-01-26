@@ -1,0 +1,57 @@
+dbg dump log options
+
+1. media
+  1.1 COM (serial)
+  1.2 floppy
+    1.2.1 raw
+    1.2.2 to file on FS
+  1.3 ieee 1394
+    1.1.1 raw
+    1.1.3 hdd
+      1.1.3.1 raw
+      1.1.3.2 to file on FS
+    1.1.4 cd/dvd recorder
+  1.4 usb
+    1.4.1 flash/hdd
+      1.4.1.1 raw
+      1.4.1.2 to file on FS
+    1.4.2 cd/dvd recorder
+  1.5 NIC (UDP)
+    1.5.1 NDIS-compliant NIC driver
+    1.5.2 ne2000-compat 
+    1.5.3 miibus (phy) compat
+  1.6 ata
+    1.6.1 hdd raw
+      1.6.3.1 raw
+      1.6.3.2 to file on FS
+    1.6.3 cd/dvd recorder
+  1.7 ioctl
+  1.8 LPT
+
+  media classes:
+
+  1. stream
+  2. block device
+    2.1 write once
+    2.2 random access raw
+    2.3 random access with block list
+
+2. insufficient media bandwith actions
+  2.1 stop logging (newer messages will be lost)
+  2.2 roll over (oldest messages will be lost)
+  2.3 new media / block
+
+3. compression
+  3.1 none
+  3.2 win lzw
+  3.3 external module
+
+4. dump mode (each mode may
+  4.1 real time
+  4.2 bug check handler
+
+5. data stream format
+  5.1 dbgprnhk internal
+  5.2 dbgprnhk internal packed
+  5.2 plain text only
+  5.3 windbg proto

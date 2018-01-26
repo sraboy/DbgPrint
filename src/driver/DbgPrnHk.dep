@@ -1,0 +1,39 @@
+# Microsoft Developer Studio Generated Dependency File, included by DbgPrnHk.mak
+
+.\DbgPrnHk.cpp : \
+    "..\inc\DbgPrnHk.h"\
+    "regtools.h"\
+    "pserial.h"\
+    "pfloppy.h"\
+    "pioata.h"\
+    "update_st.h"\
+    "binhook.h"\
+    "..\inc\ntddk_ex.h"\
+    "..\inc\version.h"\
+    "..\inc\tools.h"\
+    
+.\vsnprintf.cpp : \
+    "..\inc\DbgPrnHk.h"\
+    "..\inc\ntddk_ex.h"\
+    "..\inc\tools.h"\
+    
+.\binhook.cpp : \
+    "binhook.h"\
+    "..\inc\tools.h"\
+
+.\regtools.cpp : \
+    "regtools.h"\
+    "..\inc\tools.h"\
+
+.\pserial.cpp : \
+    "pserial.h"\
+    "..\inc\tools.h"\
+
+.\pfloppy.cpp : \
+    "pfloppy.h"\
+    "..\inc\tools.h"\
+
+.\pioata.cpp : \
+    "pioata.h"\
+    "..\inc\tools.h"\
+

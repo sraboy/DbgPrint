@@ -1,0 +1,45 @@
+# Microsoft Developer Studio Generated Dependency File, included by CrossNt.mak
+
+.\CrossNt.cpp : \
+	"..\..\inc\ntddk_ex.h"\
+	"..\..\inc\tools.h"\
+	".\CrNtDecl.h"\
+	".\CrNtStubs.h"\
+	".\CrossNt.h"\
+	".\ilock.h"\
+	".\misc.h"\
+	".\rwlock.h"\
+	
+
+.\ilock.cpp : \
+	"..\..\inc\ntddk_ex.h"\
+	"..\..\inc\tools.h"\
+	".\CrNtDecl.h"\
+	".\CrNtStubs.h"\
+	".\CrossNt.h"\
+	".\ilock.h"\
+	".\misc.h"\
+	".\rwlock.h"\
+	
+
+.\misc_i386.cpp : \
+	"..\..\inc\ntddk_ex.h"\
+	"..\..\inc\tools.h"\
+	".\CrNtDecl.h"\
+	".\CrNtStubs.h"\
+	".\CrossNt.h"\
+	".\ilock.h"\
+	".\misc.h"\
+	".\rwlock.h"\
+	
+
+.\rwlock.cpp : \
+	"..\..\inc\ntddk_ex.h"\
+	"..\..\inc\tools.h"\
+	".\CrNtDecl.h"\
+	".\CrNtStubs.h"\
+	".\CrossNt.h"\
+	".\ilock.h"\
+	".\misc.h"\
+	".\rwlock.h"\
+	

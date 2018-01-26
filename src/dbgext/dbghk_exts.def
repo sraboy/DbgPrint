@@ -1,0 +1,19 @@
+LIBRARY dbgprn
+
+DESCRIPTION 'DbgPrint Dump KD Extensions'
+
+EXPORTS
+    ls
+    list
+    save
+    xsave
+    lsig
+    del
+    drvopt
+    display
+    mdump
+    pause
+    help
+    WinDbgExtensionDllInit
+    ExtensionApiVersion
+

@@ -1,0 +1,13 @@
+# Microsoft Developer Studio Generated Dependency File, included by formatmsg.mak
+
+.\StdAfx.cpp : \
+	"..\..\client\dbgprint_opt.h"\
+	"..\..\client\dbgprintlog.h"\
+	"..\..\inc\arg_opt_unicode.h"\
+	"..\..\inc\dbgprint_opt_list.h"\
+	"..\..\inc\dbgprint_opt_sup.h"\
+	"..\..\inc\dbgprnhk.h"\
+	".\fmt_output.h"\
+	".\PIDtoPN.h"\
+	".\StdAfx.h"\
+	

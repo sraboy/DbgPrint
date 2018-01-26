@@ -1,0 +1,39 @@
+# Microsoft Developer Studio Generated Dependency File, included by DbgPrintLog.mak
+
+.\dbgprint_opt.cpp : \
+	"..\inc\arg_opt_unicode.h"\
+	"..\inc\dbgprint_opt_list.h"\
+	"..\inc\dbgprint_opt_sup.h"\
+	"..\inc\dbgprnhk.h"\
+	".\dbgprint_opt.h"\
+	".\DbgPrintLog.h"\
+	".\fmt_output_opt.h"\
+	
+
+.\DbgPrintLog.cpp : \
+	"..\inc\arg_opt_unicode.h"\
+	"..\inc\dbgprint_opt_list.h"\
+	"..\inc\dbgprint_opt_sup.h"\
+	"..\inc\dbgprnhk.h"\
+	"..\sdk\formatmsg\fmt_output.h"\
+	"..\sdk\kdapis\kdapis.h"\
+	"..\sdk\kdapis\windbgkd.h"\
+	"..\sdk\postmsg\postdbgmesg.h"\
+	".\dbgprint_opt.h"\
+	".\DbgPrintLog.h"\
+	".\dump_state.h"\
+	".\flusher.h"\
+	".\Privilege.h"\
+	".\SvcManLib.h"\
+	
+
+.\flusher.cpp : \
+	".\flusher.h"\
+	
+
+.\Privilege.cpp : \
+	
+
+.\SvcManLib.cpp : \
+	".\SvcManLib.h"\
+	
